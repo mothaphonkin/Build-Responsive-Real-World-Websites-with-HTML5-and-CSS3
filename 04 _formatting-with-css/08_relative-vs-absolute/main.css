@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.5vw;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div::before,
+div::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main,
+aside {
+    padding: 1rem;
+}
+
+main {
+    width: 70%;
+    float: left;
+    text-align: justify;
+    position: relative;
+}
+
+.flex {
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+    color: forestgreen;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+.date {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
+
+h2 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+p:first-of-type {
+    margin: 1rem 0;
+}
+
+a:first-of-type {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, .3);
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+a:hover {
+    color: blue;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+img {
+    margin: 1rem 0;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+.flex {
+    width: 50%;
+    height: 20%;
+    margin: 1rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex img {
+    border-radius: 50%;
+}

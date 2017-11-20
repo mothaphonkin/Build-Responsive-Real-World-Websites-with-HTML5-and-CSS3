@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    font-family: 'Helvetica', sans-serif
+}
+
+body {
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid deepskyblue;
+}
+
+h1,
+h2,
+h3 {
+    color: green;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2,
+h3,
+img {
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+img:first-of-type {
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.main-text {
+    color: deepskyblue;
+}

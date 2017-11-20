@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    font-family: 'Helvetica', sans-serif
+}
+
+body {
+    border: 5px solid deepskyblue;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+main,
+aside {
+    padding: 1rem;
+}
+
+h2,
+h3 {
+    color: green;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+img {
+    margin: 1rem 0;
+}
+
+img {
+    margin: 1rem 0 2rem 0;
+}
+
+aside {
+    /*border: 5px solid hotpink;*/
+}
+
+
+p {
+    text-align: justify;
+}
+
+.position {
+    text-align: left;
+}
+
+a {
+    display: block;
+    margin: .5rem 0;
+}
+
+.flex {
+    height: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex img {
+    border-radius: 50%;
+}
